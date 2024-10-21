@@ -1,0 +1,11 @@
+.enter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter img{
+    margin-top: 2rem;
+    width: 80rem;
+    height: 33rem;
+}
