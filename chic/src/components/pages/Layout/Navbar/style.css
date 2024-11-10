@@ -2,12 +2,11 @@
 
 nav {
     font-family: "Lobster", sans-serif;
-   
     border-radius: 25px;
 }
 
 .logoImg img {
-    width: 8rem;
+    width: 9rem;
 }
 
 nav {
@@ -18,8 +17,8 @@ nav {
 }
 
 .social-media button {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
     border-radius: 10px;
 }
 
@@ -32,4 +31,59 @@ nav {
 
 h1 {
     font-size: 35px;
+}
+ button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid grey;
+    cursor: pointer;
+ }
+button img{
+    width: 3.3rem;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        font-family: "Lobster", sans-serif;
+    }
+    
+    .logoImg img {
+        width: 5rem;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* gap: 12rem; */
+    }
+    
+    .social-media button {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 10px;
+    }
+    
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+   
+    button img{
+        width: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
 }
